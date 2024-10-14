@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-14T14:24:30 IST" name="Sample Suite" finished-at="2024-10-14T14:24:31 IST" duration-ms="214">
+    <groups>
+    </groups>
+    <test started-at="2024-10-14T14:24:30 IST" name="Sample Test" finished-at="2024-10-14T14:24:31 IST" duration-ms="214">
+      <class name="banking.bankingApplicationtest">
+        <test-method signature="testApplicationStarts()[pri:0, instance:banking.bankingApplicationtest@5c6648b0]" started-at="2024-10-14T14:24:31 IST" name="testApplicationStarts" finished-at="2024-10-14T14:24:31 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplicationStarts -->
+        <test-method signature="testGreeting()[pri:0, instance:banking.bankingApplicationtest@5c6648b0]" started-at="2024-10-14T14:24:31 IST" name="testGreeting" finished-at="2024-10-14T14:24:31 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGreeting -->
+      </class> <!-- banking.bankingApplicationtest -->
+    </test> <!-- Sample Test -->
+  </suite> <!-- Sample Suite -->
+</testng-results>
