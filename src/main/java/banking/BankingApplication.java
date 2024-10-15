@@ -8,7 +8,7 @@ public class BankingApplication {
         // Keep the application running
         while (true) {
             try {
-                Thread.sleep(1000); // Sleep for a while (1 second)
+                Thread.sleep(2000); // Sleep for a while (1 second)
             } catch (InterruptedException e) {
                 // Handle the interruption
                 Thread.currentThread().interrupt(); // Restore interrupted status
