@@ -1,0 +1,19 @@
+---
+- name: Deploy Docker Image
+  hosts: ec2
+  become: yes
+  tasks:
+    - name: Pull Docker Image
+      docker_image:
+        name: devopsproject
+        tag: version1.0.1
+        source: pull
+
+    - name: Run Docker Container
+      docker_container:
+        name: my_container
+        image: devopsproject:version1.0.1
+        state: started
+        restart_policy: always
+        published_ports:
+          - "80:80"  # Change the port mapping as per your requirement
