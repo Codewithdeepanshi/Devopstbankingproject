@@ -1,0 +1,8 @@
+- name: Set Permissions for Private Key
+  hosts: localhost
+  become: true  # Use sudo
+  tasks:
+    - name: Change file permissions
+      file:
+        path: /mnt/c/Users/rashi/Downloads/newkeypair.pem
+        mode: '0400'  # Read-only for the owner
